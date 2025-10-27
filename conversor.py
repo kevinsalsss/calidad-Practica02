@@ -35,7 +35,7 @@ def actualizar_tasas(ruta):
 
 # Ejemplo de uso
 if __name__ == "__main__":
-    actualizar_tasas("../data/tasas.json")
+    actualizar_tasas("data/tasas.json")
     tasas = cargar_tasas("data/tasas.json")
     precio_usd = 100.00
     precio_eur = convertir(precio_usd, "EUR", tasas)
